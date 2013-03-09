@@ -1,0 +1,61 @@
+$ rake setup_github_pages
+Enter the read/write url for your repository
+(For example, 'git@github.com:your_username/your_username.github.com)
+Repository url: https://github.com/rich8/rich8.github.com.git
+rake aborted!
+undefined method `[]' for nil:NilClass
+
+Tasks: TOP => setup_github_pages
+(See full trace by running task with --trace)
+
+
+
+$ rake setup_github_pages
+Enter the read/write url for your repository
+(For example, 'git@github.com:your_username/your_username.github.com)
+Repository url: git@github.com:rich8/rich8.github.com.git
+rm -rf _deploy
+mkdir _deploy
+cd _deploy
+Initialized empty Git repository in c:/Users/Richard/documents/git/octopress/_de
+ploy/.git/
+'My Octopress Page is coming soon
+'hellip' is not recognized as an internal or external command,
+operable program or batch file.
+[master (root-commit) 3995755] Octopress init
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+cd -
+
+---
+## Now you can deploy to http://rich8.github.com with `rake deploy` ##
+
+
+$ rake deploy
+## Deploying branch to Github Pages
+rm -rf _deploy/index.html
+
+## copying public to _deploy
+cp -r public/. _deploy
+cd _deploy
+
+## Commiting: Site updated at 2013-03-09 15:22:59 UTC
+[master 7cfd15f] Site updated at 2013-03-09 15:22:59 UTC
+ 63 files changed, 4421 insertions(+)
+ create mode 100644 Thumbs.db
+ create mode 100644 assets/jwplayer/glow/controlbar/background.png
+ create mode 100644 assets/jwplayer/glow/controlbar/blankButton.png
+ create mode 100644 assets/jwplayer/glow/controlbar/divider.png
+ create mode 100644 assets/jwplayer/glow/controlbar/fullscreenButton.png
+[...I deleted lines here]
+ create mode 100644 stylesheets/screen.css
+
+## Pushing generated _deploy website
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+## Github Pages deploy complete
+cd -
