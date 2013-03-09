@@ -1,15 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://rich8.github.com/blog/2013/03/09/first-post-on-octopress/</loc>
+        <lastmod>2013-03-09T15:56:29+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://rich8.github.com/blog/2013/03/09/second-post-how-to-publish/</loc>
+        <lastmod>2013-03-09T16:32:05+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://rich8.github.com/blog/2013/03/09/this-one-is-edited-by-notepadd-plus-plus-plus-in-win7/
+        </loc>
+        <lastmod>2013-03-09T17:22:13+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://rich8.github.com/blog/archives/</loc>
-        <lastmod>2013-03-09T13:57:12+00:00</lastmod>
+        <lastmod>2013-03-09T17:22:13+00:00</lastmod>
     </url>
     <url>
         <loc>http://rich8.github.com/</loc>
-        <lastmod>2013-03-09T13:57:12+00:00</lastmod>
+        <lastmod>2013-03-09T17:22:13+00:00</lastmod>
     </url>
     <url>
         <loc>http://rich8.github.com/robots.txt</loc>
         <lastmod>2013-03-09T13:57:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://rich8.github.com/the-gig/</loc>
+        <lastmod>2013-03-09T17:10:57+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://rich8.github.com/the-gig/u1.html</loc>
+        <lastmod>2013-03-09T17:09:03+00:00</lastmod>
     </url>
 </urlset>
